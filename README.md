@@ -1,6 +1,6 @@
 # Tem Tudo Construção
 
-<h2>Fluxo GIT:</h2>
+<h2>Fluxo GIT:</h2>.
 
  'Git clone apenas na primeira vez para baixar o repositório'
 * cd "nome da pasta" ------ o comando 'cd' serve para voce entrar na pasta que deseja( se voce fez git clone na area de trabalho vai aparecer o caminho do arquivo logo em cima)
