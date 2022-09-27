@@ -3,6 +3,7 @@
 <h2>Fluxo GIT:</h2>
 
  'Git clone apenas na primeira vez para baixar o repositório'
+<><\>
 * cd "nome da pasta" ------ o comando 'cd' serve para voce entrar na pasta que deseja( se voce fez git clone na area de trabalho vai aparecer o caminho do arquivo logo em cima)
 * Depois vai abrir no VS Code e fazer as suas alterações 
 * git status ------ voce verifica se tem alterações na sua pasta e quais são os arquivos alterados
