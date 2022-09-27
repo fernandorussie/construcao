@@ -8,6 +8,20 @@
     color: black;
     font-family: 'Rubik', sans-serif;
 }
+.box-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    background-image: url(../images/semanaconstrutor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 50vh;
+}
 .box-cards{
     background-color: aquamarine;
     width: 100%;
