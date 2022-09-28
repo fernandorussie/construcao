@@ -56,3 +56,12 @@
     fill: rgba(235, 164, 32, 0.781);
     color: rgba(235, 164, 32, 0.781);
 }
+
+.banner-promo{
+    background-image: url(../images/semanaconstrutor1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 40vh;
+}
