@@ -7,6 +7,27 @@
     list-style: none;
     color: black;
     font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+.back-top{
+    width: 60px;
+    position: fixed;
+    bottom: 60px;
+    right: 100px;
+    z-index: 999;
+}
+.list-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+.btn{
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    border-bottom: 3px solid coral;
 }
 .box-banner{
     display: flex;
@@ -14,8 +35,24 @@
     justify-content: center;
 }
 
-.banner{
-    background-image: url(../images/semanaconstrutor\ .png);
+.banner1{
+    background-image: url(../images/3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 46vh;
+}
+.banner2{
+    background-image: url(../images/5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 46vh;
+}
+.banner3{
+    background-image: url(../images/4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,7 +99,7 @@
 	transform: scale(1.1);
 }
 .description{
-    background-color: red;
+    background-color: #e0dbde;
     width: 100%;
     height: 30%;
     display: flex;
