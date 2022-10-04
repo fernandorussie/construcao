@@ -8,10 +8,51 @@
     color: black;
     font-family: 'Rubik', sans-serif;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
 .description-product{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: red;
-
+    height: 220px;
+    border-top: 1px solid;
+}
+.box-product{
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-itens{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.box-quant{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+.quant{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quant button{
+    width: 30%;
+    height: 100%;
+    font-size: 22px;
+}
+.img-produto{
+    width: 150px;
 }

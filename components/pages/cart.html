@@ -51,35 +51,95 @@
     </header>
     <!-- main é o principal da pagina -->
     <main>
-        <h1>Carrinho de compras</h1>
-        <section>
+        <section class="container">
+            <h1>Carrinho de compras</h1>
             <div class="description-product">
                 <div>
                     <p>Produto</p>
-                    <div>
-                        <!-- <img src="../../assets/images/produtos/construcao/telha.jpg" alt=""> -->
+                    <div class="box-product">
+                        <img class="img-produto" src="../../assets/images/produtos/construcao/telha.jpg" alt="">
                         <p>Telha Amianto</p>
                     </div>
                 </div>
-                <div>
+                <div >
                     <p>Preço Unitário</p>
-                    <div>
-                        <p>R$ 80,00</p>
+                    <div class="box-itens">
+                        <p id="preco">R$ 90,00</p>
                     </div>
                 </div>
                 <div>
                     <p>Quantidade</p>
-                    <div>
-                        <button onclick="menos()">-</button>
-                        <p id="valor">0</p>
-                        <button onclick="mais()">+</button>
+                    <div class="box-quant">
+                        <div class="quant">
+                            <button onclick="menos()">-</button>
+                            <p id="valor">0</p>
+                            <button onclick="mais()">+</button>
+                        </div>
                     </div>
-                    <button onclick="limpar()">Limpar</button>
                 </div>
                 <div>
                     <p>Preço Total</p>
-                    <div id="valorTotal">
-                        
+                    <div id="valorTotal" class="box-itens">
+                    </div>
+                </div>
+            </div>
+            <div class="description-product">
+                <div>
+                    <p>Produto</p>
+                    <div class="box-product">
+                        <img class="img-produto" src="../../assets/images/produtos/construcao/latatinta.jpg" alt="">
+                        <p>Telha Amianto</p>
+                    </div>
+                </div>
+                <div >
+                    <p>Preço Unitário</p>
+                    <div class="box-itens">
+                        <p id="preco">R$ 150,00</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Quantidade</p>
+                    <div class="box-quant">
+                        <div class="quant">
+                            <button onclick="menos()">-</button>
+                            <p id="valor">0</p>
+                            <button onclick="mais()">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>Preço Total</p>
+                    <div id="valorTotal" class="box-itens">
+                    </div>
+                </div>
+            </div>
+            <div class="description-product">
+                <div>
+                    <p>Produto</p>
+                    <div class="box-product">
+                        <img class="img-produto" src="../../assets/images/produtos/construcao/argamassa.jpg" alt="">
+                        <p>Telha Amianto</p>
+                    </div>
+                </div>
+                <div >
+                    <p>Preço Unitário</p>
+                    <div class="box-itens">
+                        <p id="preco">R$ 50,00</p>
+                    </div>
+                </div>
+                <div>
+                    <p>Quantidade</p>
+                    <div class="box-quant">
+                        <div class="quant">
+                            <button onclick="menos()">-</button>
+                            <p id="valor">0</p>
+                            <button onclick="mais()">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>Preço Total</p>
+                    <div id="valorTotal" class="box-itens">
                     </div>
                 </div>
             </div>
