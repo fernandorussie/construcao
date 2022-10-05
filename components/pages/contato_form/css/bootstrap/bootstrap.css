@@ -93,8 +93,7 @@ address {
 ol,
 ul,
 dl {
-  margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-top: 0; }
 
 ol ol,
 ul ul,
