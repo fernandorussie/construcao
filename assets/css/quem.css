@@ -8,3 +8,39 @@
     color: black;
     font-family: 'Rubik', sans-serif;
 }
+
+.box-quemsomos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mapa{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.textoquemsomos{
+    width: 250px;
+    height: 250px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center ;
+}
+
+.box-missaovisao{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.values{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-val{
+    width: 690px;
+    height: 500px;
+}
