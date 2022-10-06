@@ -1,14 +1,11 @@
-function email(){
-    var email = document.querySelector("email").value;
-    while(true){
-        if(email.indexOf('@') != -1){
-            alert("Valor fornecido para email válido!")
-            console.log("Deu certo!")
-            break
-        }else{
-            paragrafo.innerHTML = "Valor fornecido para email inválido! Insira novamente."
-            var email = prompt("Digite seu email:");
-            console.log("Não deu certo!")
-        }
+var email = document.querySelector("email").value;
+function email(item){
+    if(item.indexOf('@') != -1){
+        alert("Valor fornecido para email válido!")
+        console.log("Deu certo!")
+        
+    }else{
+        alert("Valor fornecido para email inválido!")
+        console.log("Não deu certo!")
     }
 }
