@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/header.css">
     <link rel="stylesheet" href="../../assets/css/produtos.css">
     <link rel="stylesheet" href="../../assets/css/footer.css">
+    <script src="../script/shopcart.js"></script>
 </head>
 <body>
     <header href="#">
@@ -39,7 +40,7 @@
                             <a class="btn-menu" href="contato.html">Contato</a>
                         </li>
                     </ul>
-                    <a href="../pages/cart.html">
+                    <a href="../pages/cart.html" onclick="modal()">
                         <!-- Icon carrinho -->
                         <!-- <img class="icon-cart" src="./assets/icons/shopcart.svg" alt=""> -->
                         <svg class="icon-cart"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 3l-.743 2h-1.929l-3.474 12h-13.239l-4.615-11h16.812l-.564 2h-13.24l2.937 7h10.428l3.432-12h4.195zm-15.5 15c-.828 0-1.5.672-1.5 1.5 0 .829.672 1.5 1.5 1.5s1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm6.9-7-1.9 7c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5z"/></svg>
@@ -47,17 +48,20 @@
                 </div>
             </div>
         </nav>
+        <div>
+
+        </div>
     </header>
     <!-- main é o principal da pagina -->
     <main>
         <a href="#topo">
             <svg class="back-top" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2.019 11.993c0 5.518 4.48 9.998 9.998 9.998 5.517 0 9.997-4.48 9.997-9.998s-4.48-9.998-9.997-9.998c-5.518 0-9.998 4.48-9.998 9.998zm1.5 0c0-4.69 3.808-8.498 8.498-8.498s8.497 3.808 8.497 8.498-3.807 8.498-8.497 8.498-8.498-3.808-8.498-8.498zm4.715-1.528s1.505-1.502 3.259-3.255c.147-.146.338-.219.53-.219s.384.073.53.219c1.754 1.753 3.259 3.254 3.259 3.254.145.145.217.336.216.527 0 .191-.074.383-.22.53-.293.293-.766.294-1.057.004l-1.978-1.978v6.694c0 .413-.336.75-.75.75s-.75-.337-.75-.75v-6.694l-1.978 1.979c-.29.289-.762.286-1.055-.007-.147-.146-.22-.338-.221-.53-.001-.19.071-.38.215-.524z" fill-rule="nonzero"/></svg>
         </a>
-        <section style="border-top:2px solid">
+        <section>
             <!-- Barra de navegação da pagina de produtos(navega entre as sessões de ferramentas, hidraulico, construcao) -->
             <nav class="navbar">
                 <ul class="list-menu">
-                    <li>
+                    <li class="border-button">
                         <a class="btn" href="#ferramentas">Ferramentas</a>
                     </li>
                     <li>
@@ -81,7 +85,7 @@
                     <div class="description">
                         <div>
                             <h3>Martelo</h3>
-                            <p>Preço</p>
+                            <p>R$ 50,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -92,8 +96,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Serrote</h3>
+                            <p>R$ 40,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -104,8 +108,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Alicate</h3>
+                            <p>R$ 30,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -116,8 +120,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Chave de fenda</h3>
+                            <p>R$ 20,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -128,8 +132,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Pá de bico</h3>
+                            <p>R$ 80,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -140,8 +144,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Marreta</h3>
+                            <p>R$ 60,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -152,8 +156,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Jogo de Chaves</h3>
+                            <p>R$ 90,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -164,8 +168,8 @@
                     </div>
                     <div class="description">
                         <div>
-                            <h3>Produto 1</h3>
-                            <p>Preço</p>
+                            <h3>Alicate de bico</h3>
+                            <p>R$ 40,00</p>
                         </div>
                         <button class="btn-buy">Comprar</button>
                     </div>
@@ -185,8 +189,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Boia de caixa d'agua</h3>
+                                <p>R$ 42,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -197,8 +201,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Caixa d'agua</h3>
+                                <p>R$ 400,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -209,8 +213,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Cano PVC</h3>
+                                <p>R$ 10,00/metro</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -221,8 +225,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Chuveiro Eletrico</h3>
+                                <p>R$ 80,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -233,8 +237,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Descarga banheiro</h3>
+                                <p>R$ 40,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -245,8 +249,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Pia cozinha</h3>
+                                <p>R$ 90,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -257,8 +261,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Pia banheiro</h3>
+                                <p>R$ 70,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -269,8 +273,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Sifão</h3>
+                                <p>R$ 40,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -291,8 +295,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Saco Areia</h3>
+                                <p>R$ 40,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -303,8 +307,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Argamassa</h3>
+                                <p>R$ 45,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -315,8 +319,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Bloco de Concreto</h3>
+                                <p>R$ 15,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -327,8 +331,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Calha simples</h3>
+                                <p>R$ 80,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -339,8 +343,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Saco de Cimento</h3>
+                                <p>R$ 80,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -351,8 +355,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Saco de Gesso</h3>
+                                <p>R$ 38,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -363,8 +367,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Janela Aluminio</h3>
+                                <p>R$ 95,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -375,8 +379,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Lata de Tinta</h3>
+                                <p>R$ 140,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -387,8 +391,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Ripas de madeira</h3>
+                                <p>R$ 40,00/Un</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -399,8 +403,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Pedra de Marmore</h3>
+                                <p>R$ 400,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -411,8 +415,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Massa Corrida</h3>
+                                <p>R$ 60,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -423,8 +427,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Piso</h3>
+                                <p>R$ 98,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -435,8 +439,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Porta madeira</h3>
+                                <p>R$ 400,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -447,8 +451,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Porta aluminio</h3>
+                                <p>R$ 200,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -459,8 +463,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Rejunte</h3>
+                                <p>R$ 20,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -471,8 +475,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Rodapé madeira</h3>
+                                <p>R$ 10,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -483,8 +487,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Telha simples</h3>
+                                <p>R$ 80,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -495,8 +499,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Telha plastico</h3>
+                                <p>R$ 95,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -507,8 +511,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Tijolo</h3>
+                                <p>R$ 10,00</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>
@@ -519,8 +523,8 @@
                         </div>
                         <div class="description">
                             <div>
-                                <h3>Produto 1</h3>
-                                <p>Preço</p>
+                                <h3>Vergalhão</h3>
+                                <p>R$ 20,00/Mt</p>
                             </div>
                             <button class="btn-buy">Comprar</button>
                         </div>

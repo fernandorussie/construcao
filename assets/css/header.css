@@ -8,8 +8,12 @@
     color: black;
     font-family: 'Rubik', sans-serif;
 }
+header{
+    background-color: #ff862f;
+    /* background-image: linear-gradient(to top, #f9d188, #fac76d, #fcbc52, #fdb134, #ffa500); */
+    background-image: linear-gradient(to top, #ffba3b, #ffad35, #ffa131, #ff932f, #ff862f);
+}
 .navbar{
-    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 35%;
+    width: 40%;
     height: 100%;
 }
 .menu-header{
@@ -46,15 +50,28 @@
     height: 80%;
 }
 .btn-menu{
-    color: black;
+    color: white;
     font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+.btn-menu:before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0;
+    right: 0;
+    height: 3px;
 }
 .icon-cart{
     width: 50px;
+    fill: white;
 }
 .icon-cart:hover,.btn-menu:hover{
     fill: rgba(235, 164, 32, 0.781);
-    color: rgba(235, 164, 32, 0.781);
+    color: rgba(0, 0, 0, 0.781);
 }
 
 .banner-promo{
