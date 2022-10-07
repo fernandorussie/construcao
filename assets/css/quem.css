@@ -16,8 +16,8 @@ main section{
 }
 .box-quemsomos{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
     width: 80%;
     height: 50vh;
     padding: 40px;
@@ -40,14 +40,15 @@ main section{
     width: 450px;
 }
 .box-valores_missao{
+    width: 80%;
     min-height: 130vh;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 .box-about{
-    width: 80%;
     height: 40%;
 }
 .box-about p {
@@ -62,18 +63,14 @@ main section{
     margin: 20px 0;
 }
 .box-diretrizes{
-    width: 80%;
     height: 40%;
-    padding: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
 }
 .box-cards{
     width: 80%;
     margin: 5px 0;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
