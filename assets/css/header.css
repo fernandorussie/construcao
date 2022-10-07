@@ -77,10 +77,9 @@ header{
 .banner-promo{
     background-image: url(../images/semanaconstrutor1.png);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    min-height: 46vh;
+    min-height: 50vh;
 }
 
 .card-4 {
