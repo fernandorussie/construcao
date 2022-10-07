@@ -1,11 +1,11 @@
 # Tem Tudo Construção
 
 <video width="320" height="240" controls="controls" autoplay="autoplay">
-<source scr="../assets/video/video.webm" type="video/mp4" />
+<source scr="../assets/video/video.mp4" type="video/mp4" />
 <!--Suportado em IE9, Chrome 6 e Safari 5 -->
 O seu navegador não suporta a tag vídeo
 </video>
-<img scr="../assets/video/video.webm">
+<img scr="../assets/video/video.mp4">
 
 https://jaimeneeves.medium.com/atualizando-seu-fork-do-github-1e2a78ee4cbf
 
