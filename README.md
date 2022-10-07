@@ -1,9 +1,5 @@
 # Tem Tudo Construção
 
-https://codepen.io/Jeyffrey/pen/GgWPwb
-
-https://edrodrigues.com.br/blog/20-incriveis-botoes-animados-de-css-puro/
-
 https://jaimeneeves.medium.com/atualizando-seu-fork-do-github-1e2a78ee4cbf
 
 <h2>Instruções para fazer PR's (Pull Request's):</h2>
