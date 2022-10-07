@@ -31,7 +31,7 @@ main section{
     font-size: 3rem;
 }
 .subtitle{
-    width: 800px;
+    width: 45vw;
     color: #f96302;
     font-size: 50px;
     padding: 20px 30px 15px 0px;
@@ -105,5 +105,5 @@ main section{
     margin: 0 20px;
 }
 .img-val{
-    width: 600px;
+    width: 35vw;
 }
