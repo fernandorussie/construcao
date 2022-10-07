@@ -25,6 +25,9 @@
 .btn{
     cursor: pointer;
     font-weight: bold;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
 }
 .btn:hover{
     border-bottom: 3px solid coral;
