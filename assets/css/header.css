@@ -51,6 +51,7 @@ header{
     margin: 0;
 }
 .btn-menu{
+    text-decoration: none;
     color: white;
     font-weight: 300;
     letter-spacing: 1px;
