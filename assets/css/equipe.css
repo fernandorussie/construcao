@@ -16,7 +16,7 @@
 
 .box-equipe{
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     max-width: 1440px;
     margin: auto;
     padding: 20px;
@@ -47,12 +47,14 @@
 .social-media{
     background-color: #e0dbde;
     width: 100%;
-    height: 30%;
-    padding: 40px 0 40px 180px;
+    height: 10vh;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-
+.social-media a{
+    width: 50px;
+}
 .redesocial{
     width: 40px;
     height: 40px;
