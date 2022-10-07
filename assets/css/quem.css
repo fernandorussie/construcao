@@ -69,24 +69,41 @@ main section{
     justify-content: space-evenly;
 }
 .box-cards{
-    width: 80%;
+    width: 100%;
     margin: 5px 0;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.box-cards:nth-child(1){
+    background-color: #7594eb;
+}
+.box-cards:nth-child(2){
+    background-color: #fba363;
+}
+.box-cards:nth-child(3){
+    background-color: #fb6504;
+}
 .box-text-cards{
+    width: 60%;
+    margin: 20px 0;
     font-size: 1.6rem;
 }
 .box-text-cards p,li {
+    color: white;
     font-weight: 400;
 }
-.icon-valores{
-    width: 300px;
+.box-text-cards h2{
+    color: white;
+    font-size: 2.3rem;
+    margin: 20px 0;
 }
-.icon-valores1{
-    width: 120px;
+.icon-valores{
+    fill: white;
+    width: 150px;
+    margin: 0 20px;
 }
 .img-val{
-    width: 460px;
+    width: 600px;
 }
