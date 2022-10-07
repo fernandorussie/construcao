@@ -1,5 +1,7 @@
 # Tem Tudo Construção
 
+<img scr="../assets/video/video.webm">
+
 https://jaimeneeves.medium.com/atualizando-seu-fork-do-github-1e2a78ee4cbf
 
 <h2>Instruções para fazer PR's (Pull Request's):</h2>
