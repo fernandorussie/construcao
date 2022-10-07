@@ -8,39 +8,88 @@
     color: black;
     font-family: 'Rubik', sans-serif;
 }
-
-.box-quemsomos{
+main section{
     display: flex;
-    justify-content: space-evenly;
-}
-
-.mapa{
-    padding-top: 20px;
-    padding-left: 30px;
-}
-
-.textoquemsomos{
-    width: 250px;
-    height: 250px;
-    padding-top: 80px;
-    display: flex;
-    align-items: center ;
-}
-
-.box-missaovisao{
-    padding-top: 90px;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.values{
-    display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
+.box-quemsomos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50vh;
+    padding: 40px;
+}
+.box-quemsomos .box-text{
+    width: 60%;
+}
+.title-quem_somos{
+    color: #005a9c;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.subtitle{
+    width: 800px;
+    color: #f96302;
+    font-size: 50px;
+    padding: 20px 30px 15px 0px;
+}
+.img-podio{
+    width: 450px;
+}
+.box-valores_missao{
+    min-height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-about{
+    width: 80%;
+    height: 40%;
+}
+.box-about p {
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 30px;
+    background-color: #E7E7E7;
+}
+.box-about h2 {
+    color: #f96302;
+    font-size: 2.3rem;
+    margin: 20px 0;
+}
+.box-diretrizes{
+    width: 80%;
+    height: 40%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box-cards{
+    width: 80%;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-text-cards{
+    font-size: 1.6rem;
+}
+.box-text-cards p,li {
+    font-weight: 400;
+}
+.icon-valores{
+    width: 300px;
+}
+.icon-valores1{
+    width: 120px;
+}
 .img-val{
-    width: 690px;
-    height: 500px;
+    width: 460px;
 }
